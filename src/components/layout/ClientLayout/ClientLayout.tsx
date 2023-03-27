@@ -1,15 +1,17 @@
 import { Outlet } from "react-router-dom";
-import DashboardLayout from "src/components/organisms/MenuLayout/MenuLayout";
+import MenuLayout from "src/components/organisms/Menu/Menu";
+import IClientLayout from "./IClientLayout";
 
-function LayoutClient() {
+function LayoutClient(props: IClientLayout) {
   // const languages = useSelector(useLanguage);
   // const dispatch = useDispatch();
   // const [input, setInput] = useState("");
 
   return (
-    <DashboardLayout>
+    <>
+      <MenuLayout />
       <Outlet />
-    </DashboardLayout>
+    </>
     // <div>
     //   <ul>
     //     {languages.map((x) => (

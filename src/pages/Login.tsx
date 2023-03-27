@@ -1,4 +1,4 @@
-import LoginLayout from "../components/organisms/LoginLayout/LoginLayout";
+import LoginLayout from "../components/layout/LoginLayout/LoginLayout";
 
 function Login() {
   return <LoginLayout />;

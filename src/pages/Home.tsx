@@ -6,7 +6,7 @@ function Home() {
       <div style={{ position: "absolute", right: "0" }}>
         Home
         <Link to={"/login"}>Ir para Login</Link>
-        <Link to={"/dashboard"}>Ir para Dasboard</Link>
+        <Link to={"/"}>Ir para Dasboard</Link>
       </div>
       <Outlet />
     </>
