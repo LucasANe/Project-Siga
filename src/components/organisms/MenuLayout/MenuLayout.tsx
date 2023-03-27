@@ -1,8 +1,8 @@
-import IDashboardLayout from "./IDashboardLayout";
+import IMenuLayout from "./IMenuLayout";
 import * as Molecules from "src/components/molecules";
 import * as S from "./style";
 
-function DashboardLayout(props: IDashboardLayout) {
+function MenuLayout(props: IMenuLayout) {
   return (
     <S.Container>
       <>
@@ -15,4 +15,4 @@ function DashboardLayout(props: IDashboardLayout) {
   );
 }
 
-export default DashboardLayout;
+export default MenuLayout;

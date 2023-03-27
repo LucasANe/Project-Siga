@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
+import LayoutClient from "./pages/LayoutClient";
 
 const router = createBrowserRouter([
   // {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   // },
   {
     path: "/",
-    element: <Dashboard />,
+    element: <LayoutClient />,
     children: [
       {
         path: "/matricula",
